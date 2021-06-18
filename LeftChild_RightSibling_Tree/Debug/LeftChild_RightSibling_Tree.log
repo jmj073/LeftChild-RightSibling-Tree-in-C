@@ -1,0 +1,6 @@
+﻿  LR_Tree_LIb.c
+C:\Users\user\source\repos\LeftChild_RightSibling_Tree\LR_Tree_LIb.c(71,21): warning C4133: '=': 'LCRSStack *'과(와) 'Stack *' 사이의 형식이 호환되지 않습니다.
+C:\Users\user\source\repos\LeftChild_RightSibling_Tree\LR_Tree_LIb.c(77,25): warning C4133: '=': 'Stack *'과(와) 'LCRSStack *' 사이의 형식이 호환되지 않습니다.
+C:\Users\user\source\repos\LeftChild_RightSibling_Tree\LR_Tree_LIb.c(9): warning C4716: 'LCRS_CreateNode': 값을 반환해야 합니다.
+C:\Users\user\source\repos\LeftChild_RightSibling_Tree\LR_Tree_LIb.c(68): warning C4716: 'Create_S': 값을 반환해야 합니다.
+  LeftChild_RightSibling_Tree.vcxproj -> C:\Users\user\source\repos\LeftChild_RightSibling_Tree\Debug\LeftChild_RightSibling_Tree.exe
