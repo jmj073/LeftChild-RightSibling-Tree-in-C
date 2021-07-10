@@ -29,7 +29,7 @@ void LCRS_AddChildNode(LCRSNode* Parent, LCRSNode* Child);
 //트리 출력
 void LCRS_PrintTree(LCRSNode* Node, int Depth);
 //스택을 이용한 트리 출력
-void LCRS_SPrintTree(LCRSNode* Node, int Depth);
+void LCRS_SPrintTree(LCRSNode* Node);
 //스택 노드 만들기
 LCRSStack* Create_S(LCRSNode* Node, int Depth);
 //푸쉬

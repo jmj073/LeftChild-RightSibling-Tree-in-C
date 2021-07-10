@@ -42,7 +42,8 @@ void LCRS_PrintTree(LCRSNode* Node, int Depth) {
 }
 
 //스택을 이용한 트리 출력
-void LCRS_SPrintTree(LCRSNode* Node, int Depth) {
+void LCRS_SPrintTree(LCRSNode* Node) {
+	int Depth = 0;
 	LCRSStack* Stack = NULL, * Current;
 	LCRS_SPush(&Stack, Create_S(Node, Depth));
 
@@ -82,7 +83,7 @@ static LCRSStack* LCRS_SPop(LCRSStack** Stack) {
 void LCRS_PrintNodesAtLevel(LCRSNode* Node, int Level) {
 	if (!Level)
 		printf("%c\n", Node->Data);
-	if (Node->LeftChild != NULL && Level)
+	else if (Node->LeftChild != NULL)
 		LCRS_PrintNodesAtLevel(Node->LeftChild, Level - 1);
 	if (Node->RightSibling != NULL)
 		LCRS_PrintNodesAtLevel(Node->RightSibling, Level);

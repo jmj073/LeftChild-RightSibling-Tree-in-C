@@ -31,7 +31,7 @@ int main() {
 	printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
 	LCRS_PrintNodesAtLevel(Root, 2);
 	printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
-	LCRS_SPrintTree(Root, 0);
+	LCRS_SPrintTree(Root);
 
 	LCRS_DestroyTree(Root);
 }
